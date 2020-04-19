@@ -1,0 +1,82 @@
+html, body {
+  margin: auto;
+}
+.split {
+  background-size: 200%;
+  width: 50%;
+  height: 100vh;
+}
+.glass {
+  background-color: white;
+  color: black;
+  opacity: .65;
+}
+.dark {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  opacity: .65;
+}
+#design-section {
+ 
+  background-position: left;
+  float: left;
+}
+#dev-section {
+
+  background-color: #FBB448;
+  background-position: right;
+  float: right;
+}
+#dev-section img {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+#btn-res{
+  width:300px;
+  height:50px;
+  font-size: 20px;
+  font-weight:bold;
+  font-family: "Lato";
+  text-transform: uppercase;
+  margin-top:15%;
+  margin-left:30%;
+  border-width: 5px;
+}
+#btn-res:hover{
+color: white;
+}
+#btn-achat{
+  width:300px;
+  height:50px;
+  font-size: 20px;
+  font-weight:bold;
+  font-family: "Lato";
+  text-transform: uppercase;
+  margin-top:60%;
+  margin-left:30%;
+  border-width: 5px;
+}
+#btn-achat:hover{
+  color: #FBB448;
+}
+#amp {
+  position: absolute;
+  top: 150px;
+  margin-left: 43%;
+  font-size: 25px;
+  font-family: "Lato";
+  z-index: 5;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 200px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+body{
+  font-family: "Lato", Arial, sans-serif;
+}

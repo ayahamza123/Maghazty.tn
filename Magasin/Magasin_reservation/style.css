@@ -1,0 +1,101 @@
+
+a{
+  
+  font-size: 80px;
+  line-height: 1.5;
+  font-weight: 300;
+  font-family: "Kaushan Script", cursive !important;
+
+  padding-top: 45%;
+  display: block;
+  display:inline-block;
+
+
+
+}
+
+a.orange:hover  {
+  color: rgba(251, 179, 72, 0.788)!important;
+  text-decoration: none!important;
+  
+}
+a.white:hover  {
+  color: rgb(245, 229, 206)!important;
+  text-decoration: none!important;
+  
+}
+.orange {
+  color: white;
+ 
+}
+a:link{
+  text-decoration: none!important;
+}
+.orange{
+  color:#FBB448;
+ 
+}
+.white{
+  color:white;
+
+}
+div#logo{
+    display: block;
+
+    width: 221px;
+    height: 221px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: -110px;
+    z-index: 33;
+  }
+
+.stripes{
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #000;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.title{
+ font: bold 40px Helvetica, Arial, sans-serif; 
+ padding-top: 20px;
+ display: block;
+ width: 100%;
+}
+
+#one{
+ background-color: white;
+}
+#two{
+
+  background-color:  #FBB448;
+
+
+}
+#three{
+background-color: white;
+
+}
+#four{
+   background-color:  #FBB448;
+
+}
+#one, #two, #three, #four{
+
+  position: relative;
+  color: #fff;
+  display: block;
+  width: 25%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  -webkit-transition: all 0.3s;
+   
+  background-size: 110%;
+  background-position: right 50px center;
+}
